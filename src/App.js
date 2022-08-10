@@ -6,8 +6,13 @@ import TaskList from './components/TaskList'
 
 function App() {
     const [tasks, setTasks] = useState([
-        {id: "task_1", title: "Learn JS", status: 0},
-        {id: "task_2", title: "Code a Todo List", status: 1}
+        {id: "task_1", title: "Learn HTML", status: 1},
+        {id: "task_2", title: "Learn CSS", status: 1},
+        {id: "task_3", title: "Learn JS", status: 1},
+        {id: "task_4", title: "Learn ReactJS", status: 0},
+        {id: "task_5", title: "Learn NodeJS", status: 0},
+        {id: "task_6", title: "Learn Algorithm", status: 0},
+        {id: "task_7", title: "Learn Design Pattern", status: 0},
     ])
 
     const [showIncomplete, setShowIncomplete] = useState(true)
